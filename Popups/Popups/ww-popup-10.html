@@ -1,0 +1,183 @@
+ .<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,100;0,500;0,700;1,600&family=Roboto:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>POPUP-10</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI";
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .ww-popup-10{
+        width: 500px;
+        height: 550px;
+        background-color: white;
+        border-radius: 25px;
+        text-align: center;
+        color: #333;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      .ww-popup-10 img {
+        margin-top: 10px;
+        height: 50%;
+        width: 80%;
+      }
+      .ww-popup-10  h2 {
+        font-size: 35px;
+        color: rgb(46, 48, 46);
+        font-weight: bold;
+        align-items: center;
+      }
+      .ww-popup-10 p {
+        margin-top: 15px;
+        font-size: 15px;
+        color: rgb(43, 44, 43);
+        align-items: center;
+      }
+      .ww-popup-10 input {
+       width: 80%;
+       margin-top: 15px;
+       font-size: 18px;
+       color: #333;
+       padding: 11px;
+       border: 2px solid grey;
+       border-radius: 10px;
+     }
+      .ww-popup-10 .btn1 {
+        align-items: center;
+        width: 40%;
+        margin-top: 15px;
+        padding: 11px;
+        transition: 0.5s;
+        background-color: rgb(255, 255, 255);
+        color: rgb(83, 77, 77);
+        border: 2px solid grey;
+        outline: none;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      .ww-popup-10 .btn1:hover{
+        background-color: rgb(87, 84, 84);
+        color: #fff;
+      }
+      .ww-popup-10 .btn2{
+        align-items: center;
+        width: 40%;
+        padding: 11px;
+        background-color: #B263FF;
+        color: #fff;
+        transition: 0.5s;
+        border: 2px solid grey;
+        outline: none;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+
+      .ww-popup-10 .btn2:hover{
+        background-color: rgb(99, 94, 94);
+      }
+      @media (max-width: 768px) {
+        .ww-popup-10 {
+          width: 350px !important;
+          height: 63%;
+          background-color: white;
+          border-radius: 7px;
+          text-align: center;
+          position: absolute;
+          color: #333;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .ww-popup-10 img {
+          margin-top: 10px;
+          width: 90%;
+          height: 50%;
+          max-width: 100%;
+        }
+
+        .ww-popup-10 h2 {
+          margin-top: -5%;
+          font-size: 30px;
+          color: rgb(51, 53, 50);
+          text-align: center;
+        }
+        .ww-popup-10  p {
+          font-size: 14px;
+          color: rgb(97, 94, 94);
+          text-align: center;
+        }
+        .ww-popup-10 input {
+       width: 80%;
+       margin-top: 10px;
+       font-size: 15px;
+       color: #333;
+       padding: 8px;
+       border: 2px solid grey;
+       border-radius: 10px;
+     }
+     .ww-popup-10 .btn1 {
+        align-items: center;
+        width: 40%;
+        margin-top: 10px;
+        padding: 8px;
+        transition: 0.5s;
+        background-color: rgb(255, 255, 255);
+        color: rgb(83, 77, 77);
+        border: 2px solid grey;
+        outline: none;
+        font-size: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      .ww-popup-10 .btn2{
+        align-items: center;
+        width: 40%;
+        padding: 8px;
+        transition: 0.5s;
+        background-color: #B263FF;
+        color: #fff;
+        border: 2px solid grey;
+        outline: none;
+        font-size: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ww-gallery ww-popup-10">
+        <img src="./ww-popup-10.jpg" alt="" />
+          <h2>Invite your team</h2>
+          <p>
+           You've created a new project! Invite colleagues to <br>
+           collabrate on this project.
+          </p>
+          <input type="text" class="ww-popup-10-input" placeholder="Enter link here">
+          <button class="btn1">Cancel</button>
+          <button class="btn2">Get started</button>
+      </div>
+    </div>
+  </body>
+</html>

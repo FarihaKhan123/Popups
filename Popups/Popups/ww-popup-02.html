@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gulzar&family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Open+Sans&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400&family=Roboto+Slab:wght@200;800&display=swap"
+    rel="stylesheet">
+  <title>POPUP-02</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI';
+    }
+
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ww-popup-02 {
+      width: 400px;
+      height: 500px;
+      background-color: white;
+      border-radius: 7px;
+      text-align: center;
+      color: #333;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .ww-popup-02 img {
+      margin-top: 20px;
+      width: 60%;
+      height: 40%;
+    }
+
+    .ww-popup-02 h2 {
+      margin: 18px;
+      padding: 2px 2px 2px;
+      font-size: 30px;
+      color: #4F4F58;
+      font-weight: bold;
+      align-items: center;
+    }
+
+    .ww-popup-02 p {
+      margin: 15px;
+      padding: 0px 30px 2px;
+      font-size: 17px;
+      color: rgb(97, 94, 94);
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
+    .ww-popup-02 input {
+      width: 60%;
+      margin-top: 15px;
+      font-size: 15px;
+      color: #333;
+      padding: 7px;
+      border: 2px solid grey;
+      border-radius: 4px;
+    }
+
+    .ww-popup-02 .btn {
+      align-items: center;
+      width: 60%;
+      margin-top: 15px;
+      padding: 10px 0;
+      background-color: #4F4F58;
+      color: #fff;
+      border: 0;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+
+    .ww-popup-02-btn:hover {
+      background-color: rgb(29, 29, 29);
+    }
+
+    @media (max-width: 768px) {
+      .ww-popup-02 {
+        width: 300px !important;
+        height: 70%;
+        background-color: white;
+        border-radius: 7px;
+        text-align: center;
+        color: #333;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .ww-popup-02 img {
+        margin-top: 20px;
+        width: 60%;
+        height: 35%;
+      }
+
+      .ww-popup-02 h2 {
+        margin-top: 22px;
+        font-size: 30px;
+        color: #4F4F58;
+        align-items: center;
+      }
+
+      .ww-popup-02 p {
+        margin-top: -5px;
+        font-size: 17px;
+        color: rgb(97, 94, 94);
+        ;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+
+      .ww-popup-02 input {
+        width: 65%;
+        margin-top: 15px;
+        font-size: 15px;
+        color: #333;
+        padding: 9px;
+        border: 2px solid grey;
+        border-radius: 4px;
+      }
+
+      .ww-popup-02 .btn {
+        align-items: center;
+        width: 65%;
+        margin-top: 10px;
+        padding: 9px 0;
+        background-color: #4F4F58;
+        color: #fff;
+        font-size: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: 00.5s;
+      }
+
+      .ww-popup-02 .btn:hover {
+        background-color: rgb(29, 29, 29);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="ww-gallery ww-popup-02">
+      <img src="./ww-popup-02.jpg" alt="">
+      <h2>NEW STUFF</h2>
+      <p>Sign up for our newsletter and get 15% off your first order!</p>
+      <input type="email" placeholder="Enter your e-mail">
+      <button class="btn">Subscribe</button>
+    </div>
+  </div>
+</body>
+
+</html>

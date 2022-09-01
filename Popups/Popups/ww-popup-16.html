@@ -1,0 +1,206 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gulzar&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>POPUP-16</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins";
+        word-break: break-word;
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .ww-popup-16 {
+        width: 700px;
+        height: 500px;
+        background-color: white;
+        border-radius: 7px;
+        text-align: center;
+        color: #333;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      .ww-popup-16 img {
+        width: 50%;
+        height: 100%;
+        float: left;
+      }
+
+      .ww-popup-16 h2 {
+        margin-top: 95px;
+        font-size: 35px;
+        color: rgb(147, 84, 167);
+        font-weight: bold;
+        align-items: center;
+      }
+      .ww-popup-16 p {
+        margin-top: -5px;
+        font-size: 0.65rem;
+        color: rgb(182, 172, 172);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      .ww-popup-16 a {
+        color: #151111;
+        text-decoration: none;
+        font-size: 0.65rem;
+        font-weight: 500;
+      }
+      .ww-popup-16 .input1 {
+        width: 40%;
+        margin-top: 30px;
+        font-size: 15px;
+        color: #333;
+        padding: 7px;
+        border: 2px solid grey;
+        border-radius: 4px;
+      }
+      .ww-popup-16 .input2 {
+        width: 40%;
+        margin-top: 15px;
+        font-size: 15px;
+        color: #333;
+        padding: 7px;
+        border: 2px solid grey;
+        border-radius: 4px;
+      }
+      .ww-popup-16 .btn {
+        align-items: center;
+        width: 40%;
+        margin-top: 15px;
+        padding: 9px 0;
+        background-color: rgb(147, 84, 167);
+        color: #fff;
+        border: 0;
+        outline: none;
+        font-size: 14px;
+        border-radius: 9px;
+        cursor: pointer;
+        transition: 0.5s;
+      }
+      .ww-popup-16 section {
+        margin-top: 10px;
+        justify-content: center;
+        display: block;
+        color: #bbb;
+        font-size: 0.7rem;
+      }
+      @media (max-width: 768px) {
+        .ww-popup-16 {
+          width: 300px !important;
+          height: 80%;
+          background-color: white;
+          border-radius: 7px;
+          text-align: center;
+          position: absolute;
+          color: #333;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .ww-popup-16 img {
+          margin: 0px;
+          max-width: 100%;
+          width: 100%;
+          height: auto;
+        }
+        .ww-popup-16 .data {
+          position: absolute;
+          top: 40%;
+          bottom: fixed;
+          background-color: white;
+          height: 60%;
+        }
+        .ww-popup-16 h2 {
+          margin-top: 30px;
+          font-size: 30px;
+          display: inline-block;
+          color: rgb(147, 84, 167);
+          align-items: center;
+        }
+        .ww-popup-16 p {
+          margin-top: -5px;
+          font-size: 0.65rem;
+          color: rgb(182, 172, 172);
+          align-items: center;
+          justify-content: center;
+          display: flex;
+        }
+        .ww-popup-16 .input1 {
+          width: 80%;
+          margin-top: 30px;
+          margin-bottom: -5px;
+          font-size: 14px;
+          color: #333;
+          padding: 4px;
+          border: 2px solid grey;
+          border-radius: 4px;
+        }
+        .ww-popup-16 .input2 {
+          width: 80%;
+          margin-top: 15px;
+          margin-bottom: -5px;
+          font-size: 14px;
+          color: #333;
+          padding: 4px;
+          border: 2px solid grey;
+          border-radius: 4px;
+        }
+        .ww-popup-16 .btn {
+          align-items: center;
+          width: 80%;
+          margin-top: 15px;
+          padding: 5px 0;
+          background-color: rgb(147, 84, 167);
+          color: #fff;
+          border: 0;
+          font-size: 16px;
+          border-radius: 9px;
+          cursor: pointer;
+          transition: 0.5s;
+        }
+        .ww-popup-16 section {
+          margin-top: 10px;
+          padding: 2px 2px;
+          color: #bbb;
+          font-size: 0.6rem;
+        }
+        .ww-popup-16 section a {
+          color: rgb(145, 139, 139);
+          outline: rgb(145, 139, 139);
+          font-size: 0.6rem;
+          text-decoration: underline;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ww-gallery ww-popup-16">
+        <img src="./ww-popup-16.jpg" alt="" />
+        <div class="data">
+          <h2>Welcome Back</h2>
+          <p>No registred yet? <a href="#">&nbsp;Sign up</a></p>
+          <input type="name" class="input1" placeholder="Username" />
+          <input type="password" class="input2" placeholder="Password" />
+          <button class="btn">Sign In</button>
+          <section>
+            Forgot your password?
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
